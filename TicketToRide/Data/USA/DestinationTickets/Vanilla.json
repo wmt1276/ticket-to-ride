@@ -1,0 +1,122 @@
+[
+    {
+        "Cities": ["Boston", "Miami"],
+        "Points": 12
+    },
+    {
+        "Cities": ["Calgary", "Pheonix"],
+        "Points": 13
+    },
+    {
+        "Cities": ["Calgary", "Salt Lake City"],
+        "Points": 7
+    },
+    {
+        "Cities": ["Chicago", "New Olreans"],
+        "Points": 7
+    },
+    {
+        "Cities": ["Chicago", "Santa Fe"],
+        "Points": 9
+    },
+    {
+        "Cities": ["Dallas", "New York"],
+        "Points": 11
+    },
+    {
+        "Cities": ["Denver", "El Paso"],
+        "Points": 4
+    },
+    {
+        "Cities": ["Denver", "Pittsburgh"],
+        "Points": 11
+    },
+    {
+        "Cities": ["Duluth", "El Paso"],
+        "Points": 10
+    },
+    {
+        "Cities": ["Duluth", "Houston"],
+        "Points": 8
+    },
+    {
+        "Cities": ["Helena", "Los Angeles"],
+        "Points": 8
+    },
+    {
+        "Cities": ["Kansas City", "Houston"],
+        "Points": 5
+    },
+    {
+        "Cities": ["Los Angeles", "Chicago"],
+        "Points": 16
+    },
+    {
+        "Cities": ["Los Angeles", "Miami"],
+        "Points": 20
+    },
+    {
+        "Cities": ["Los Angeles", "New York"],
+        "Points": 21
+    },
+    {
+        "Cities": ["Montréal", "Atlanta"],
+        "Points": 9
+    },
+    {
+        "Cities": ["Montréal", "New Olreans"],
+        "Points": 13
+    },
+    {
+        "Cities": ["New York", "Atlanta"],
+        "Points": 6
+    },
+    {
+        "Cities": ["Portland", "Nashville"],
+        "Points": 17
+    },
+    {
+        "Cities": ["Portland", "Pheonix"],
+        "Points": 11
+    },
+    {
+        "Cities": ["San Francisco", "Atlanta"],
+        "Points": 17
+    },
+    {
+        "Cities": ["Sault St. Marie", "Nashville"],
+        "Points": 8
+    },
+    {
+        "Cities": ["Sault St. Marie", "Oklahoma City"],
+        "Points": 9
+    },
+    {
+        "Cities": ["Seattle", "Los Angeles"],
+        "Points": 9
+    },
+    {
+        "Cities": ["Seattle", "New York"],
+        "Points": 22
+    },
+    {
+        "Cities": ["Toronto", "Miami"],
+        "Points": 10
+    },
+    {
+        "Cities": ["Vancouver", "Montréal"],
+        "Points": 20
+    },
+    {
+        "Cities": ["Vancouver", "Santa Fe"],
+        "Points": 13
+    },
+    {
+        "Cities": ["Winnipeg", "Houston"],
+        "Points": 12
+    },
+    {
+        "Cities": ["Winnipeg", "Little Rock"],
+        "Points": 11
+    }
+]
