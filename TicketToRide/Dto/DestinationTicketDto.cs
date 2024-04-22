@@ -1,6 +1,4 @@
-using TicketToRide.Interfaces;
-
-namespace TicketToRide.Dtos
+namespace TicketToRide.Dto
 {
     public class DestinationTicketDto
     {

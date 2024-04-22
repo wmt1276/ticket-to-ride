@@ -1,5 +1,4 @@
-﻿using TicketToRide.Interfaces;
-using TicketToRide.Dtos;
+﻿using TicketToRide.Dto;
 using System.Text.Json;
 
 List<DestinationTicketDto> destinationTickets = Deserialize<List<DestinationTicketDto>>("Data/USA/DestinationTickets/Vanilla.json");
