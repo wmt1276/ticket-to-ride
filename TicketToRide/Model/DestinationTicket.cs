@@ -1,7 +1,7 @@
 ﻿using TicketToRide.Dto;
 using TicketToRide.Interface;
 
-namespace TicketToRide;
+namespace TicketToRide.Model;
 
 public class DestinationTicket(DestinationTicketDto dto) : IDestinationTicket
 {

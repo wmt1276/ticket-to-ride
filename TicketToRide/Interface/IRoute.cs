@@ -2,7 +2,7 @@ namespace TicketToRide.Interface;
 
 public interface IRoute 
 {
-    string[] Cities { get; }
+    Tuple<string, string> Cities { get; }
     int Length { get; }
-    string[] Colors { get; }
+    IEnumerable<string> Colors { get; }
 }
