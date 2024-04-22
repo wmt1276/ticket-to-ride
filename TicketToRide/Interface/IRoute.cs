@@ -1,9 +1,8 @@
-namespace TicketToRide.Interface
+namespace TicketToRide.Interface;
+
+public interface IRoute 
 {
-    public interface IRoute 
-    {
-        string[] Cities { get; }
-        int Length { get; }
-        string[] Colors { get; }
-    }
+    string[] Cities { get; }
+    int Length { get; }
+    string[] Colors { get; }
 }

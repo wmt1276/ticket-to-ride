@@ -1,8 +1,7 @@
-namespace TicketToRide.Interface
+namespace TicketToRide.Interface;
+
+public interface IDestinationTicket
 {
-    public interface IDestinationTicket
-    {
-        string[] Cities { get; }
-        int Points { get; }
-    }
+    string[] Cities { get; }
+    int Points { get; }
 }

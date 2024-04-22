@@ -1,8 +1,7 @@
-﻿namespace TicketToRide.Interface
+﻿namespace TicketToRide.Interface;
+
+public interface IBoard
 {
-    public interface IBoard
-    {
-        string Location { get; }
-        IRoute[] Routes { get; }
-    }
+    string Location { get; }
+    IRoute[] Routes { get; }
 }

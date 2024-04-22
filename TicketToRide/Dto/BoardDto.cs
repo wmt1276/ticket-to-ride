@@ -1,8 +1,7 @@
-﻿namespace TicketToRide.Dto
+﻿namespace TicketToRide.Dto;
+
+public class BoardDto
 {
-    public class BoardDto
-    {
-        public string Location { get; set; }
-        public RouteDto[] Routes { get; set; }
-    }
+    public string Location { get; set; }
+    public RouteDto[] Routes { get; set; }
 }

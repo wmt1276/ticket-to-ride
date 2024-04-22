@@ -1,8 +1,7 @@
-namespace TicketToRide.Dto
+namespace TicketToRide.Dto;
+
+public class DestinationTicketDto
 {
-    public class DestinationTicketDto
-    {
-        public string[] Cities { get; set; }
-        public int Points { get; set; }
-    }
+    public string[] Cities { get; set; }
+    public int Points { get; set; }
 }
