@@ -2,8 +2,27 @@
 using TicketToRide.Dtos;
 using System.Text.Json;
 
-string destinationTicketFileName = "Data/USA/DestinationTickets/Vanilla.json";
-string destinationTicketjsonString = File.ReadAllText(destinationTicketFileName);
-List<DestinationTicketDto> destinationTickets = JsonSerializer.Deserialize<List<DestinationTicketDto>>(destinationTicketjsonString)!;
+List<DestinationTicketDto> destinationTickets = Deserialize<List<DestinationTicketDto>>("Data/USA/DestinationTickets/Vanilla.json");
+BoardDto board = Deserialize<BoardDto>("Data/USA/Board.json");
 
-Console.WriteLine(destinationTickets.Count);
+List<string> cities = [];
+
+foreach (RouteDto route in board.Routes)
+{
+    cities.AddRange(route.Cities);
+}
+
+cities = cities.Distinct().ToList();
+cities.Sort();
+
+Console.WriteLine($"Cities: {cities.Count}");
+foreach (string city in cities)
+{
+    Console.WriteLine(city);
+}
+
+static T Deserialize<T>(string fileName)
+{
+    string jsonString = File.ReadAllText(fileName);
+    return JsonSerializer.Deserialize<T>(jsonString)!;
+}
