@@ -3,8 +3,9 @@ using TicketToRide.Interface;
 
 namespace TicketToRide.Model;
 
-public class DestinationTicket(DestinationTicketDto dto) : IDestinationTicket
+public class Route(RouteDto dto) : IRoute
 {
     public IEnumerable<string> Cities { get; } = dto.Cities;
-    public int Points { get; } = dto.Points;
+    public int Length { get; } = dto.Length;
+    public IEnumerable<string> Colors { get; } = dto.Colors;
 }

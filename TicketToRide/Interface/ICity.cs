@@ -3,5 +3,5 @@
 public interface ICity
 {
     string Name { get; }
-    IEnumerable<IRoute> Routes { get; }
+    IList<IRoute> Routes { get; }
 }
